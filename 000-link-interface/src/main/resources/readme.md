@@ -1,0 +1,3 @@
+001-link-userservice-provider和002-link-consumer的接口工程
+
+只需要存放provider和consumer公用的service接口和数据载体model即可等即可。

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 应用(服务)名称 -->
+    <dubbo:application name="link-userService-provider"/>
+    <!-- 配置注册中心 -->
+    <dubbo:registry address="N/A"/>
+    <!-- 配置服务协议 协议的端口号默认20880-->
+    <dubbo:protocol name="dubbo" port="20880"/>
+    <!-- 配置暴露服务 如果不使用注册中心，则值为：N/A-->
+    <dubbo:service interface="com.yyl.service.UserService" ref="userServiceImpl"/>
+</beans>

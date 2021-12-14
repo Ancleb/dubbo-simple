@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="001-link-userservice-provider" />
+        <module name="002-link-consumer" />
+        <module name="000-link-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="000-link-interface" target="1.8" />
+      <module name="001-link-userservice-provider" target="1.8" />
+      <module name="002-link-consumer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

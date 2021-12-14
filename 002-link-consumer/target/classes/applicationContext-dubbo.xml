@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!-- 应用名称 -->
+    <dubbo:application name="link-consumer"/>
+
+    <!-- 无注册中心 -->
+    <dubbo:registry address="N/A"/>
+
+    <!--
+        id：dubbo在本工程中为UserService生成的动态代理类Bean名称
+        url：服务提供方提供的服务。协议+ip+端口
+        registry：provider是直连的方式，没有使用registry，则consumer的值为N/A
+    -->
+    <dubbo:reference id="userServiceImpl" interface="com.yyl.service.UserService" url="dubbo://192.168.1.205:20880"/>
+</beans>
