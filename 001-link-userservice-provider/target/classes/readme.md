@@ -5,4 +5,4 @@
    1. 声明服务提供者的名称
    2. 声明服务提供者所使用的的协议和端口号
    3. 暴露服务，使用直连方式,dubbo:service的registry设置为N/A
-5. web.xml配置ContextLoaderListener
+5. web.xml配置ContextLoaderListener,不需要暴露Http端点（也就是不需要DispatcherServlet）。因为dubbo是基于Socket的长连接。非HTTP
