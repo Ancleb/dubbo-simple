@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("user")
 @AllArgsConstructor
-public class UserController implements BeanPostProcessor {
+public class UserController {
     private UserService userService;
 
 
