@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/003-zk-interface/003-zk-interface.iml" filepath="$PROJECT_DIR$/003-zk-interface/003-zk-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/004-zk-provider/004-zk-provider.iml" filepath="$PROJECT_DIR$/004-zk-provider/004-zk-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/005-zk-consumer/005-zk-consumer.iml" filepath="$PROJECT_DIR$/005-zk-consumer/005-zk-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/006-zk-multi-provider/006-zk-multi-provider.iml" filepath="$PROJECT_DIR$/006-zk-multi-provider/006-zk-multi-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/007-zk-multi-consumer/007-zk-multi-consumer.iml" filepath="$PROJECT_DIR$/007-zk-multi-consumer/007-zk-multi-consumer.iml" />
     </modules>
   </component>
 </project>

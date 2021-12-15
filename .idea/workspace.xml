@@ -9,7 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b975baf0-101b-4d3c-a296-4ceba0846b60" name="Changes" comment="" />
+    <list default="true" id="b975baf0-101b-4d3c-a296-4ceba0846b60" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/004-zk-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/004-zk-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-zk-provider/src/main/java/com/yyl/provider/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/004-zk-provider/src/main/java/com/yyl/provider/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-zk-provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/004-zk-provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-zk-provider/src/main/resources/spring-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/004-zk-provider/src/main/resources/spring-dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-zk-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/005-zk-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-zk-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/005-zk-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-zk-consumer/src/main/resources/spring-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/005-zk-consumer/src/main/resources/spring-dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-zk-multi-provider/src/main/java/com/yyl/provider/Provider06.java" beforeDir="false" afterPath="$PROJECT_DIR$/006-zk-multi-provider/src/main/java/com/yyl/provider/Provider06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/006-zk-multi-provider/src/main/java/com/yyl/provider/service/impl/UserServiceImplV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/006-zk-multi-provider/src/main/java/com/yyl/provider/service/impl/UserServiceImplV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-zk-multi-consumer/src/main/java/com/yyl/consumer/Consumer07.java" beforeDir="false" afterPath="$PROJECT_DIR$/007-zk-multi-consumer/src/main/java/com/yyl/consumer/Consumer07.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,9 +83,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/005-zk-consumer/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/007-zk-multi-consumer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -110,16 +121,62 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (3)">
-    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.Consumer (1)">
+    <configuration name="Provider06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yyl.provider.Provider06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yyl.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="007-zk-multi-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyl.consumer.Consumer07" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="005-zk-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyl.consumer.Consumer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Provider (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-004-zk-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyl.provider.Provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-006-zk-multi-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyl.provider.Provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="006-zk-multi-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyl.provider.Provider06" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="004-zk-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yyl.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyl.provider.Provider" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -476,11 +533,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.Consumer" />
+      <item itemvalue="Spring Boot.Provider (1)" />
+      <item itemvalue="Spring Boot.Provider (2)" />
+      <item itemvalue="Spring Boot.Provider (3)" />
+      <item itemvalue="Spring Boot.Consumer (1)" />
+      <item itemvalue="Spring Boot.Provider" />
       <item itemvalue="Tomcat Server.001-link-provider" />
       <item itemvalue="Tomcat Server.002-link-consumer" />
-      <item itemvalue="Spring Boot.Application (2)" />
-      <item itemvalue="Spring Boot.Application (3)" />
+      <item itemvalue="Application.Provider06" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Provider06" />
+        <item itemvalue="Spring Boot.Provider" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
@@ -498,7 +566,10 @@
       <workItem from="1639461529341" duration="601000" />
       <workItem from="1639462146075" duration="7695000" />
       <workItem from="1639535846451" duration="687000" />
-      <workItem from="1639536608971" duration="5451000" />
+      <workItem from="1639536608971" duration="16421000" />
+      <workItem from="1639560149289" duration="230000" />
+      <workItem from="1639560391611" duration="119000" />
+      <workItem from="1639560519120" duration="448000" />
     </task>
     <servers />
   </component>

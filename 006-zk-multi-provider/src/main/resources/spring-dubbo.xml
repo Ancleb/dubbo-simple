@@ -17,8 +17,10 @@
     <dubbo:registry address="zookeeper://localhost:2181"/>
 
     <!-- 暴露服务 -->
-    <dubbo:service interface="com.yyl.api.service.UserService" ref="userServiceImpl"/>
+    <dubbo:service interface="com.yyl.api.service.UserService" ref="userServiceImpl" version="1.0.0"/>
+    <dubbo:service interface="com.yyl.api.service.UserService" ref="userServiceImplV2" version="2.0.0"/>
 
     <bean id="userServiceImpl" class="com.yyl.provider.service.impl.UserServiceImpl"/>
+    <bean id="userServiceImplV2" class="com.yyl.provider.service.impl.UserServiceImplV2"/>
 
 </beans>

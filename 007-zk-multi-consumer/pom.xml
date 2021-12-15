@@ -9,10 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yyl</groupId>
-    <artifactId>boot-005-zk-consumer</artifactId>
-    <name>005-zk-consumer</name>
+    <artifactId>boot-007-zk-multi-consumer</artifactId>
+    <name>007-zk-multi-consumer</name>
     <version>0.0.1-SNAPSHOT</version>
-
     <properties>
         <java.version>11</java.version>
     </properties>

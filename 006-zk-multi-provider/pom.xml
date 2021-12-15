@@ -9,10 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.yyl</groupId>
-    <artifactId>boot-005-zk-consumer</artifactId>
-    <name>005-zk-consumer</name>
+    <artifactId>boot-006-zk-multi-provider</artifactId>
+    <name>006-zk-multi-provider</name>
     <version>0.0.1-SNAPSHOT</version>
-
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -31,8 +30,7 @@
             <version>3.0.4</version>
         </dependency>
 
-
-        <!-- Zookeeper的一个客户端 -->
+        <!-- zookeeper的一个客户端 -->
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-x-discovery</artifactId>
@@ -42,6 +40,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>

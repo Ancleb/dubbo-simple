@@ -8,17 +8,14 @@
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!-- 服务名称 -->
-    <dubbo:application name="004-zk-provider"/>
+    <dubbo:application name="005-zk-consumer"/>
 
-    <!-- 协议 使用dubbo协议，协议端口20880默认-->
-    <dubbo:protocol name="dubbo" port="20880"/>
-
-    <!-- 注册中心地址 使用Zookeeper,-->
+    <!-- 注册中心地址 使用Zookeeper-->
     <dubbo:registry address="zookeeper://localhost:2181"/>
 
-    <!-- 暴露服务 -->
-    <dubbo:service interface="com.yyl.api.service.UserService" ref="userServiceImpl"/>
+    <!-- 引用服务 -->
+    <dubbo:reference id="userServiceImpl" interface="com.yyl.api.service.UserService" version="1.0.0"/>
+    <dubbo:reference id="userServiceImplV2" interface="com.yyl.api.service.UserService" version="2.0.0"/>
 
-    <bean id="userServiceImpl" class="com.yyl.provider.service.impl.UserServiceImpl"/>
 
 </beans>

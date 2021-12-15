@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="003-zk-interface" />
+        <module name="007-zk-multi-consumer" />
         <module name="004-zk-provider" />
         <module name="005-zk-consumer" />
         <module name="002-link-consumer" />
         <module name="000-link-interface" />
         <module name="001-link-userservice-provider" />
-        <module name="003-zk-interface" />
+        <module name="006-zk-multi-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +24,10 @@
       <module name="003-zk-interface" target="11" />
       <module name="004-zk-provider" target="11" />
       <module name="005-zk-consumer" target="11" />
+      <module name="006-zk-multi-provider" target="11" />
+      <module name="007-zk-multi-consumer" target="11" />
+      <module name="boot-004-zk-provider" target="11" />
+      <module name="boot-006-zk-multi-provider" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +35,10 @@
       <module name="003-zk-interface" options="" />
       <module name="004-zk-provider" options="-parameters" />
       <module name="005-zk-consumer" options="-parameters" />
+      <module name="006-zk-multi-provider" options="-parameters" />
+      <module name="007-zk-multi-consumer" options="-parameters" />
+      <module name="boot-004-zk-provider" options="-parameters" />
+      <module name="boot-006-zk-multi-provider" options="-parameters" />
     </option>
   </component>
 </project>
