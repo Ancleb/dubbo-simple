@@ -7,6 +7,10 @@
     <file url="file://$PROJECT_DIR$/001-link-userservice-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/002-link-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/002-link-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-zk-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-zk-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/004-zk-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-zk-consumer/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 服务名称 -->
+    <dubbo:application name="004-zk-provider"/>
+
+    <!-- 注册中心地址 使用Zookeeper-->
+    <dubbo:registry address="zookeeper://www.youngeryang.top:8888"/>
+
+    <!-- 协议 使用dubbo协议，协议端口2181默认-->
+    <dubbo:protocol name="dubbo" port="2181"/>
+
+    <!-- 引用服务 -->
+    <dubbo:reference id="userServiceImpl" interface="com.yyl.api.service.UserService"/>
+
+
+</beans>

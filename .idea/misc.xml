@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/001-link-userservice-provider/pom.xml" />
         <option value="$PROJECT_DIR$/002-link-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/000-link-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/003-zk-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/004-zk-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/005-zk-consumer/pom.xml" />
       </list>
     </option>
   </component>

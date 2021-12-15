@@ -15,6 +15,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -55,11 +65,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/000-link-interface/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/005-zk-consumer/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,9 +88,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Program Files (x86)\study\dubbo\000-link-interface\src\main\java" />
-      <recent name="D:\Program Files (x86)\study\dubbo\002-link-consumer\src\main\java\com\yyl" />
-      <recent name="D:\Program Files (x86)\study\dubbo\002-link-consumer\src\main\resources" />
+      <recent name="D:\Program Files (x86)\study\dubbo\005-zk-consumer\src\main\resources" />
+      <recent name="D:\Program Files (x86)\study\dubbo" />
+      <recent name="D:\Program Files (x86)\study\dubbo\004-zk-provider\src\main\java\com\yyl\provider" />
+      <recent name="D:\Program Files (x86)\study\dubbo\003-zk-interface\src\main\java\com\yyl\api" />
+      <recent name="D:\Program Files (x86)\study\dubbo\003-zk-interface\src\main\java\com\yyl\interface" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yyl.provider.service.impl" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -83,7 +103,28 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.002-link-consumer">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (3)">
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="005-zk-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyl.consumer.Consumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="004-zk-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyl.provider.Provider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
@@ -437,6 +478,8 @@
     <list>
       <item itemvalue="Tomcat Server.001-link-provider" />
       <item itemvalue="Tomcat Server.002-link-consumer" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.Application (3)" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -454,6 +497,8 @@
       <workItem from="1639452089546" duration="4646000" />
       <workItem from="1639461529341" duration="601000" />
       <workItem from="1639462146075" duration="7695000" />
+      <workItem from="1639535846451" duration="687000" />
+      <workItem from="1639536608971" duration="4161000" />
     </task>
     <servers />
   </component>
